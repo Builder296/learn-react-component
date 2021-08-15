@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import InfomationBar from './components/common/InfomationBar';
+import MenuBar from './components/menu-bar/MenuBar';
 
 function App() {
   return (
     <div className="App">
+      <InfomationBar />
+      <MenuBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
